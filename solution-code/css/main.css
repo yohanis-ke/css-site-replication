@@ -7,11 +7,11 @@ body {
 .page {
   margin: 90px auto 0;
   width: 880px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
 }
 
-.content {
-  float: right;
-}
 
 .main {
   background: url("../images/frame.png") no-repeat;
@@ -39,11 +39,11 @@ body {
 }
 
 .footer {
-  clear: both;
   list-style: none;
   margin: 0 0 20px;
   padding: 0;
   text-align: center;
+  grid-column: 1 / -1;
 }
 
 .footer li {
