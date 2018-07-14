@@ -8,3 +8,71 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.instagram{
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.head{
+  background-color: #739ee2;
+   grid-column: 1/4;
+  height: 200px;
+}
+.head img{
+  position: absolute;
+  top: 85px;
+  left: 1050px;
+}
+.frame img{
+  position: absolute;
+  top: 160px;
+  left:620px;
+}
+
+.description{
+  position: absolute;
+  top: 180px;
+  left: 680px;
+  grid-column: 2/3;
+}
+
+.description p{
+  max-width: 380px;
+}
+
+.phone img{
+  position: absolute;
+  top: 90px;
+  left:300px;
+}
+.brand img{
+  position: absolute;
+  top: 60px;
+  left: 700px;
+}
+.android img{
+  position:absolute;
+  top: 500px;
+  left:670px;
+}
+.apple img{
+  position: absolute;
+  top: 500px;
+  left: 870px;
+}
+.footer p{
+  position: absolute;
+  top:700px;
+  text-align: center;
+  grid-column: 1/4;
+  height: 50px;
+  left: 200px;
+  word-spacing: 30px;
+}
+.footer a{
+  text-decoration: none;
+}
